@@ -1,6 +1,6 @@
 ### Hi there 👋
- 🔭 I’m currently working on **A Platform for Hackathons in Kerala**
-- 🌱 I’m currently learning **Go and Algorithms**
+ 🔭 I’m currently working on **Kaggle**
+ 🌱 I’m currently learning **Object detection**
 
 <!--START_SECTION:waka-->
 ```text
