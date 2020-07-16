@@ -1,22 +1,26 @@
-  
-# This is a basic workflow to help you get started with Actions
+name: 'Waka - Readme'
+author: Athil Cyriac Ajay
+description: 'Add a Wakatime Coding Activity graph in your Readme'
 
-name: Waka Readme
+inputs:
+  GH_TOKEN:
+    description: 'GitHub access token with Repo scope'
+    required: true
+    default: ${{ github.token }}
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
-on:
-  push:
-    branches: [ master ]
-  schedule:
-    # Runs at 12am UTC
-    - cron: '0 0 * * *'
+  WAKATIME_API_KEY:
+    description: 'Your Wakatime API Key'
+    required: true
 
-jobs:
-  update-readme:
-    name: Update this repo's README
-    runs-on: ubuntu-latest
-    steps:
-      - uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ 896a1310-0821-4c80-8160-80c0795c8517 }}
+  USERNAME:
+    description: 'Your GitHub username'
+    default: ${{ github.repository_owner }}
+
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'info'
+  color: 'blue'
