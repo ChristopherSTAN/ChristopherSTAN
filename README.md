@@ -1,5 +1,7 @@
 ### Hi there 👋
- -🔭 I’m currently working on **Kaggle** 
+My name is Tao.
+
+ -🔭 I’m currently studying in **University of Delaware** 
  
- -🌱 I’m currently learning **Object detection**
+ -🌱 I’m currently learning **Object detection** and **PyTorch**
 
