@@ -5,8 +5,6 @@
 
 <!--START_SECTION:waka-->
 ```text
-Week #29 : July 13 - 18
-
-Python      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0%
+Python      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 <!--END_SECTION:waka-->
